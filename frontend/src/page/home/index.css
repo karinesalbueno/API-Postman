@@ -1,0 +1,39 @@
+.home {
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.png {
+    height: 60vh;
+    padding-right: 50px;
+    z-index: 1;
+}
+
+.Plantpng {
+    width: 120px;
+    height: 100px;
+    top: 200px;
+    position: relative;
+    right: 130px;
+}
+
+.backgroundHome {
+    position: absolute;
+    width: 496px;
+    height: 504px;
+    right: 2px;
+    top: 105px;
+    background: radial-gradient(50% 50% at 50% 50%, #dddfc7 0%, rgba(196, 196, 196, 0) 100%);
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+}
