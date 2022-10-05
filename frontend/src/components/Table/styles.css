@@ -1,0 +1,32 @@
+tbody {
+    display: flex;
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+td {
+    border: 0.8px solid rgb(191, 201, 221);
+    height: 22px;
+    padding: 4px;
+    font-size: 0.8rem;
+    margin: 0 0.6px 0.89px 0;
+    color: #494747;
+}
+
+.name,
+.description td {
+    min-width: 280px;
+}
+
+.trashColumn td {
+    max-width: 24px;
+}
+
+.trash {
+    height: 24px;
+    cursor: pointer;
+}

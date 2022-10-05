@@ -1,8 +1,10 @@
-
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: max-content;
+    margin: auto;
+    max-width: 95%;
 }
 
 .card {
@@ -10,48 +12,44 @@
     border-radius: 12px;
     box-shadow: 2px 1px 2px 2px rgb(201, 200, 200);
     color: #1090CB;
-    padding: 30px;
+    padding: 20px;
     margin: 40px;
     font-weight: 600;
+    width: 90%;
 }
 
 .buttonCategory {
     border: none;
     width: 70%;
     padding: 8px 30px;
-    margin: 20px 0 0 0 ;
+    margin: 20px 0 0 0;
     border-radius: 10px;
-    background-color:#846dd8e8;
+    background-color: #846dd8e8;
     color: #FFFFFF;
     cursor: pointer;
     font-size: 1rem;
 }
-.buttonCategory:hover{
+
+.buttonCategory:hover {
     background-color: #502bd6e8;
 }
 
-.visible {
-    background: #FFFFFF;
-    border-radius: 12px;
-    padding: 10px;
-    width: 80%;
+small {
+    margin: 0 20% 18px 20% ;
+    color: #969090;
 }
-
-p {
-    background-color: #d4d1d1;
-    border-radius: 8px;
-    padding: 5px 0px;
+.smallText{
+    width: 100%;
+}
+button{
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
     .card {
         padding: 16px 30px;
-        width: 290px;
-        margin: 40px;
-    }
-
-    section {
-        justify-content: center;
-        display: flex;
+        width: 420px;
     }
 }
