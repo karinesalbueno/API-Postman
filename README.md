@@ -2,7 +2,7 @@
 
 
 front-end e back-end em pastas distintas. 
-<br/>Realizar git clone e em seguida `npm install`
+<br/>Realizar git clone, em seguida `npm install`
 
 
 #### `npm start` (front-end)
