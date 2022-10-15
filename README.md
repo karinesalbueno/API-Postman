@@ -6,7 +6,7 @@ front-end e back-end em pastas distintas.
 
 
 #### `npm start` (front-end)
-Runs the app in the development mode.\
+Runs the app in the development mode
 Open [http://localhost:3000/home](http://localhost:3000) to view it in the browser.
 
 
